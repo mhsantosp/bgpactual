@@ -1,5 +1,4 @@
 import React from "react";
-// import styles from "./Suscripciones.css";
 import todos from "../../todos.json";
 
 export default function Suscripciones() {

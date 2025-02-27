@@ -27,7 +27,7 @@ export default function Suscripciones() {
                   </div>
                   <div className="modal-body">
                     <h3>Tipo de fondo {todo.categoria}</h3>
-                    <h4>Monto minimo de siscripción: ${todo.montoMinVincualcion}</h4>
+                    <h4>Monto mínimo de suscripción: ${todo.montoMinVincualcion}</h4>
                     <h5>{todo.suscriptionState ?  "Activa" : "Suscribirce"}</h5>
                   </div>
                   <div className="modal-footer">

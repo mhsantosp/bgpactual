@@ -14,19 +14,19 @@ const Header = () => (
             alt="BtgPactual"
           />
         </a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bgpactualMenu" aria-controls="bgpactualMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div className="collapse navbar-collapse" id="bgpactualMenu">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 menu">
             <li className="nav-item">
-              <NavLink className="nav-link active" aria-current="page" to="/">Inicio</NavLink>
+              <NavLink className="nav-link" aria-current="page" to="/bgpactual" id="inicio">Inicio</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/suscripciones">Suscripciones</NavLink>
+              <NavLink className="nav-link" to="/suscripciones" id="suscripciones">Suscripciones</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/historico">Histórico</NavLink>
+              <NavLink className="nav-link" to="/historico" id="historico">Histórico</NavLink>
             </li>
           </ul>
           <div className="input-group input-group-sm saldoActual">

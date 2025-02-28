@@ -37,7 +37,6 @@ export default function Suscripciones() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

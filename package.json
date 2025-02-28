@@ -1,7 +1,7 @@
 {
-  "homepage": "https://mhsantosp.github.io/bgpactual/",
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://mhsantosp.github.io/bgpactual/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
